@@ -44,7 +44,7 @@ const Cards = () => {
             ref={range.includes(index) ? ref : null}
           >
             <p><b>{el.name}</b></p>
-            {el.description !== null ? <p style={{ textAlign: 'justify' }}>{el.description}</p> : null}
+            {el.description && <p style={{ textAlign: 'justify' }}>{el.description}</p>}
             <a href={`${el.html_url}`} target="_blank" rel="noopener noreferrer">{el.html_url}</a>
             <p>Last update was at: {new Date(el.updated_at).toLocaleString()}</p>
             <p>Stars: {el.stargazers_count}</p>
