@@ -131,7 +131,7 @@ body {
 }
 
 .cards-list {
-  background-color: #d7d7d7;
+  background-color: #585555;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
