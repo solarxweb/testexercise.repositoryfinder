@@ -52,7 +52,7 @@ const Cards = () => {
                 >
                   <p className="item-title">{el.name}</p>
                   {el.description && <p className="item-description">{el.description}</p>}
-                  <a href={`${el.html_url}`} target="_blank" rel="noopener noreferrer">{el.html_url}</a>
+                  <a className="item-link" href={`${el.html_url}`} target="_blank" rel="noopener noreferrer">{el.html_url}</a>
                   <p className="item-lastchanges">Last update was at: {new Date(el.updated_at).toLocaleString()}</p>
                   <p className="item-starcounter">
                     <svg width="17.5" height="17.5" viewBox="0 0 17.5 17.5" xmlns="http://www.w3.org/2000/svg">
