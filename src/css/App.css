@@ -165,6 +165,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .cards-list__item .item-title {
+  word-break: break-word;
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 5px;
@@ -173,6 +174,9 @@ body {
   font-family: inherit;
   text-align: left;
   margin-bottom: 0;
+}
+.cards-list__item .item-link {
+  word-wrap: break-word;
 }
 .cards-list__item .item-lastchanges {
   font-size: 14px;

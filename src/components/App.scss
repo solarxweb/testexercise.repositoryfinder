@@ -135,6 +135,7 @@ body {
   border: 1px solid silver;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   .item-title {
+    word-break: break-word;
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 5px;
