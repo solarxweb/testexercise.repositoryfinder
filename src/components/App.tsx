@@ -1,4 +1,3 @@
-import '../css/App.css';
 import React from "react";
 import Navbar from './Navbar/Nav';
 import Form from './Form/Form';

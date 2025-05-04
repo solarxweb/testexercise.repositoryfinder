@@ -6,6 +6,7 @@ import { createRoot } from 'react-dom/client'
 import App from './components/App.jsx'
 import { I18nextProvider } from 'react-i18next'
 import i18nInstance from './locale/index.js'
+import './css/App.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
